@@ -1,7 +1,7 @@
 import pandas as pd
 from pandas import DataFrame
 
-from undisputedunited.parser.parser import Parser
+from result_parser import Parser
 
 
 class HistoricParser(Parser):
