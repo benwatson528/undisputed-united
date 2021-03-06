@@ -11,8 +11,8 @@ def update_readme(match: Series):
                      'render_date': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                      'match_date': datetime.fromisoformat(match.date).strftime('%A %d %B %Y')}
 
-    with open('data/README.template') as f:
+    with open('undisputedunited/data/README.template') as f:
         template = Template(f.read())
         replaced = template.substitute(substitutions)
-        with open("../README.md", "w") as output:
+        with open("README.md", "w") as output:
             output.write(replaced)
