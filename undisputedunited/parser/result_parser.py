@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 from pandas import DataFrame
 
 
-class Parser(ABC):
+class ResultParser(ABC):
     @abstractmethod
     def parse(self, file_name: str) -> DataFrame:
         """

@@ -1,10 +1,10 @@
 import pandas as pd
 from pandas import DataFrame
 
-from undisputedunited.parser.result_parser import Parser
+from undisputedunited.parser.result_parser import ResultParser
 
 
-class HistoricParser(Parser):
+class HistoricResultParser(ResultParser):
 
     def parse(self, file_name: str) -> DataFrame:
         """

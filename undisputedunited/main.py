@@ -1,7 +1,7 @@
 import pandas as pd
 
-from undisputedunited.parser.current_season_parser import CurrentSeasonParser
-from undisputedunited.parser.historic_parser import HistoricParser
+from undisputedunited.parser.current_season_parser import CurrentSeasonResultParser
+from undisputedunited.parser.historic_parser import HistoricResultParser
 from undisputedunited.template.readme_updater import update_readme
 
 
@@ -20,8 +20,8 @@ def main():
 
 
 def build_datasets():
-    historic_df = HistoricParser().parse('data/top_four_leagues_1888_2020.csv')
-    current_df = CurrentSeasonParser().parse('https://fixturedownload.com/download/epl-2020-GMTStandardTime.csv')
+    historic_df = HistoricResultParser().parse('data/top_four_leagues_1888_2020.csv')
+    current_df = CurrentSeasonResultParser().parse('https://fixturedownload.com/download/epl-2020-GMTStandardTime.csv')
     return pd.concat([historic_df, current_df])
 
 
