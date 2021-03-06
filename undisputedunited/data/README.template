@@ -6,6 +6,10 @@ Are you tired of hearing football pundits and commentators use the word "_United
 
 ## Current Undisputed United: $champion
 
+<p align="center">
+  <img src="images/$champion_crest_file_name.svg" />
+</p>
+
 The current Undisputed United are **$champion**, and they have held this title since they beat $loser $score on $match_date.
 
 
@@ -22,6 +26,21 @@ Only regular season Football League matches from the top four tiers are included
 
 ## History
 The first Football League match between two Uniteds<sup>1</sup> took place on 26th September 1898 in what was then the 1st Division, as Sheffield United and Newcastle United drew 2-2. The two sides met again only a few weeks later on 15th October 1893, with Sheffield United coming away with all two points<sup>2</sup> in a 1-2 victory.
+
+There are currently thirteen clubs in the Football League:
+ - Cambridge United
+ - Carlisle United
+ - Colchester United
+ - Leeds United
+ - Manchester United
+ - Newcastle United
+ - Oxford United
+ - Peterborough United
+ - Rotherham United
+ - Scunthorpe United
+ - Sheffield United
+ - Southend United
+ - West Ham United
 
 
 #### _Notes_

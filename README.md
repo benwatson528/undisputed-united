@@ -34,6 +34,7 @@ The first Football League match between two Uniteds<sup>1</sup> took place on 26
 
  - Football League matches from the League's formation in 1888 until 10th March 2020: [jalapic/engsoccerdata](https://github.com/jalapic/engsoccerdata).
  - Live data for subsequent seasons: [fixturedownload.com](https://fixturedownload.com).
+ - Club crests are taken from the Wikipedia article for each club.
 
 
 

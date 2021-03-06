@@ -21,8 +21,11 @@ class CurrentSeasonResultParser(ResultParser):
         df = pd.read_csv(file_name, dtype='str', usecols=used_cols)
         df.columns = ['date', 'home', 'away', 'result']
         df = df[df['result'].notna()]
-        team_name_replacements = {'Utd': 'United', 'West Ham': 'West Ham United', 'Newcastle': 'Newcastle United',
-                                  'Man': 'Manchester'}
+        team_name_replacements = {'Utd': 'United',
+                                  'West Ham': 'West Ham United',
+                                  'Newcastle': 'Newcastle United',
+                                  'Man': 'Manchester',
+                                  'Leeds': 'Leeds United'}
         df['home'] = [self.replace_all(x, team_name_replacements) for x in df['home']]
         df['away'] = [self.replace_all(x, team_name_replacements) for x in df['away']]
         df = df[(df['home'].str.contains('United')) & (df['away'].str.contains('United'))]

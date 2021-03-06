@@ -5,7 +5,9 @@ from pandas import Series
 
 
 def update_readme(match: Series):
-    substitutions = {'champion': match.home if match.result == 'H' else match.away,
+    champion = match.home if match.result == 'H' else match.away
+    substitutions = {'champion': champion,
+                     'champion_crest_file_name': champion.replace(' ', '_'),
                      'loser': match.away if match.result == 'H' else match.home,
                      'score': match.score,
                      'render_date': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
