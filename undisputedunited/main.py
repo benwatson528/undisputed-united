@@ -17,18 +17,13 @@ def main():
                 changes = changes.append([match])
     print(f'The current Undisputed United are {current_champion}')
     update_readme(changes.iloc[-1])
-    output_history(changes)
+    changes.to_csv("all_title_changes.csv")
 
 
 def build_datasets():
     historic_df = HistoricResultParser().parse('undisputedunited/data/top_four_leagues_1888_2020.csv')
     current_df = CurrentSeasonResultParser().parse('https://fixturedownload.com/download/epl-2020-GMTStandardTime.csv')
     return pd.concat([historic_df, current_df])
-
-
-def output_history(changes):
-    with open("all_title_changes.csv", "w") as output:
-        output.write(changes)
 
 
 if __name__ == "__main__":
