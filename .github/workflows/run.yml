@@ -2,7 +2,7 @@ name: Re-calculate the Undisputed United hourly
 on:
   schedule:
     - cron: "0 * * * *"
-  [push]
+  push:
 
 jobs:
   build:
