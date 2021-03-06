@@ -17,7 +17,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - run: python -m undisputedunited.main
-    - name: Commit updated README
+    - name: Commit updated files
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"

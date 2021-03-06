@@ -17,7 +17,7 @@ def main():
                 changes = changes.append([match])
     print(f'The current Undisputed United are {current_champion}')
     update_readme(changes.iloc[-1])
-    changes.to_csv("all_title_changes.csv")
+    changes.drop('Index', axis=1).to_csv("all_title_changes.csv", index=False)
 
 
 def build_datasets():
