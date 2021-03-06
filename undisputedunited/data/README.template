@@ -1,21 +1,22 @@
-# The Undisputed United (WORK IN PROGRESS)
+# The Undisputed United
 
 Are you tired of hearing football pundits and commentators use the word "_United_" to refer to only one team during Manchester United vs Newcastle United? **The Undisputed United** fairly and scientifically calculates the one team that is truly allowed to be called United.
 
 
 
-## Current Champion
- - **XXXXX**
+## Current Undisputed United: $champion
+
+The current Undisputed United are **$champion**, and they have been champion since they beat $loser $score on $match_date.
 
 
 
 ## The Rules
 
-Sheffield United became the first Undisputed United when they beat Newcastle United 1-2 in 1898 (see [History](#history)). From that point onwards, the winner of any regular season English Football League match between the defending champion and another United gains the title. In the event of a draw, the title remains with the defending champion.
+Sheffield United became the first Undisputed United by beating Newcastle United 1-2 in 1898 (see [History](#history)). From that point onwards, the winner of any regular season English Football League match between the defending champion and another United gains the title. In the event of a draw, the title remains with the defending champion.
 
 The methodology is similar to that of the [Unofficial Football World Championships](https://en.wikipedia.org/wiki/Unofficial_Football_World_Championships).
 
-Only regular season Football League matches from the top four tiers are included. Cups, playoffs and [test matches](https://en.wikipedia.org/wiki/Football_League_test_matches) are excluded.
+Only regular season Football League matches from the top four tiers are included. Cups, playoffs and [test matches](https://en.wikipedia.org/wiki/Football_League_test_matches) are excluded. This page updates hourly.
 
 
 
@@ -32,17 +33,20 @@ The first Football League match between two Uniteds<sup>1</sup> took place on 26
 ## Data
 
  - Football League matches from the League's formation in 1888 until 10th March 2020: [jalapic/engsoccerdata](https://github.com/jalapic/engsoccerdata).
- - Data for subsequent seasons: [fixturedownload.com](https://fixturedownload.com).
+ - Live data for subsequent seasons: [fixturedownload.com](https://fixturedownload.com).
 
 
 
 ## To Do
 **Technical:**
- - Don't include Manchester United until 24th April 1902.
- - Display the current champion in this README/a webpage.
  - Use a GitHub action to calculate the champion and update this README every hour.
- - Create some graphs/other stats to show the champion over time.
+ - Add other stats.
  - Automatic support for future seasons - detect the current champion's league and get the appropriate data.
 
 **Sources to include:**
- - Relegation/promotion playoffs? Cup competitions?
+ - Relegation/promotion playoffs? 
+ - Cup competitions?
+
+
+
+<sub>This page was automatically generated at $render_date by a GitHub action.</sub>

@@ -1,3 +1,4 @@
+from datetime import datetime
 from typing import Dict
 
 import pandas as pd
@@ -25,7 +26,7 @@ class CurrentSeasonParser(Parser):
         df['home'] = [self.replace_all(x, team_name_replacements) for x in df['home']]
         df['away'] = [self.replace_all(x, team_name_replacements) for x in df['away']]
         df = df[(df['home'].str.contains('United')) & (df['away'].str.contains('United'))]
-
+        df['date'] = [datetime.strptime(x, '%d/%m/%Y %H:%M').strftime('%Y-%m-%d') for x in df['date']]
         df['score'] = [str(x).replace(" ", "") for x in df['result']]
         df['tier'] = '1'
         df['result'] = df['score'].map(self.find_winner)

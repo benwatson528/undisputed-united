@@ -1,0 +1,12 @@
+name: Re-calculate the Undisputed United hourly
+on:
+  schedule:
+    - cron: "0 * * * *"
+jobs:
+  build:
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+    - run: python main.py
