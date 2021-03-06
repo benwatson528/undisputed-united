@@ -20,7 +20,7 @@ Only regular season Football League matches from the top four tiers are included
 
 
 ## History
-The first Football League match between two Uniteds<sup>1</sup> took place on 26th September 1898 in what was then the 1st Division, as Sheffield United and Newcastle United drew 2-2. The two sides met again only a few weeks later on 15th October 1898, with Sheffield United coming away with all two points<sup>2</sup> in a 1-2 victory.
+The first Football League match between two Uniteds<sup>1</sup> took place on 26th September 1898 in what was then the 1st Division, as Sheffield United and Newcastle United drew 2-2. The two sides met again only a few weeks later on 15th October 1893, with Sheffield United coming away with all two points<sup>2</sup> in a 1-2 victory.
 
 
 #### _Notes_
@@ -32,18 +32,17 @@ The first Football League match between two Uniteds<sup>1</sup> took place on 26
 ## Data
 
  - Football League matches from the League's formation in 1888 until 10th March 2020: [jalapic/engsoccerdata](https://github.com/jalapic/engsoccerdata).
- - Premier League matches for the 2020/2021 season: [fixturedownload.com](https://fixturedownload.com/results/epl-2020).
+ - Data for subsequent seasons: [fixturedownload.com](https://fixturedownload.com).
 
 
 
 ## To Do
 **Technical:**
  - Don't include Manchester United until 24th April 1902.
- - Display the current champion in this README. 
+ - Display the current champion in this README/a webpage.
  - Use a GitHub action to calculate the champion and update this README every hour.
- - Create some nice graphs to show the champion over time.
+ - Create some graphs/other stats to show the champion over time.
+ - Automatic support for future seasons - detect the current champion's league and get the appropriate data.
 
 **Sources to include:**
- - English Football League matches since 3rd March 2020 (and live going forwards).
- - Other domestic competitions (FA Cup, League Cup etc).
- - Relegation/promotion playoffs.
+ - Relegation/promotion playoffs? Cup competitions?
