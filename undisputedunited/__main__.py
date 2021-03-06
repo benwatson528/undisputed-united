@@ -1,8 +1,8 @@
 import pandas as pd
 
-from undisputedunited.parser.current_season_parser import CurrentSeasonParser
-from undisputedunited.parser.historic_parser import HistoricParser
-from undisputedunited.template.readme_updater import update_readme
+from parser.current_season_parser import CurrentSeasonParser
+from parser.historic_parser import HistoricParser
+from template.readme_updater import update_readme
 
 
 def main():
