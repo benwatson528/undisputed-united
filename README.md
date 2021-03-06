@@ -42,6 +42,8 @@ There are currently thirteen clubs in the Football League:
  - Southend United
  - West Ham United
 
+For a list of all title changes throughout history, see [all_title_changes.csv](all_title_changes.csv).
+
 
 #### _Notes_
 1. Manchester United were called [Newton Heath](https://en.wikipedia.org/wiki/History_of_Manchester_United_F.C._(1878%E2%80%931945)) until 24th April 1902, and so aren't included until then.
