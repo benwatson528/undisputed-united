@@ -1,4 +1,4 @@
-# The Undisputed United
+# The Undisputed United - NOT CURRENTLY MAINTAINED, OUT OF DATE
 
 Are you tired of hearing football pundits and commentators use the word "_United_" to refer to only one team during Manchester United vs Newcastle United? **The Undisputed United** fairly and scientifically calculates the one team that is truly allowed to be called United.
 
